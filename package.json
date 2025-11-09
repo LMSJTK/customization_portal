@@ -1,0 +1,26 @@
+{
+  "name": "cofense-customisation-portal",
+  "version": "1.0.0",
+  "description": "A web portal for customizing security awareness content with Okta SSO authentication",
+  "main": "public/index.html",
+  "scripts": {
+    "start": "python3 -m http.server 9000 --directory public",
+    "serve": "npx http-server public -p 9000 -o",
+    "serve:php": "php -S localhost:9000 -t public"
+  },
+  "keywords": [
+    "okta",
+    "authentication",
+    "sso",
+    "security-awareness",
+    "content-portal"
+  ],
+  "author": "Cofense",
+  "license": "UNLICENSED",
+  "private": true,
+  "devDependencies": {},
+  "dependencies": {},
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
